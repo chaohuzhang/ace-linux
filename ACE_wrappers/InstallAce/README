@@ -1,0 +1,2 @@
+compile:
+g++ -I$ACE_ROOT -L$ACE_ROOT/lib -o ace_compile_test ace_compile_test.cpp -lACE

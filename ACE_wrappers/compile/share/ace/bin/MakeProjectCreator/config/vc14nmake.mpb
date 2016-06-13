@@ -1,0 +1,9 @@
+// -*- MPC -*-
+// $Id: vc14nmake.mpb 97767 2014-06-04 10:13:34Z johnnyw $
+
+project {
+  specific(nmake) {
+    addcompile -= /Wp64
+  }
+}
+

@@ -1,0 +1,11 @@
+prefix=/home/zglx2008/ACE/ACE_wrappers/compile
+exec_prefix=/home/zglx2008/ACE/ACE_wrappers/compile
+libdir=/home/zglx2008/ACE/ACE_wrappers/compile/lib
+includedir=/home/zglx2008/ACE/ACE_wrappers/compile/include
+
+Name: Kokyu
+Description: Kokyu Scheduling Framework
+Requires: ACE
+Version: 6.3.0
+Libs: -L${libdir} -lKokyu
+Cflags: -I${includedir}
